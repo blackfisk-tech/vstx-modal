@@ -1,0 +1,44 @@
+{
+  "name": "vstx-modal",
+  "version": "0.0.1",
+  "description": "Modal component for the Vue Stacks Template",
+  "main": "dist/vstx-modal.js",
+  "scripts": {
+    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
+  },
+  "author": "Garion Berg <garionberg@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackfisk-tech/vstx-modal"
+  },
+  "keywords": [
+    "vue",
+    "modal",
+    "component"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "babel-runtime": "^6.9.2",
+    "css-loader": "^0.28.7",
+    "pug": "^2.0.0-rc.4",
+    "pug-loader": "^2.3.0",
+    "rimraf": "^2.6.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue": "^2.5.2",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^11.1.4",
+    "vue-style-loader": "^2.0.3",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "1.13.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
