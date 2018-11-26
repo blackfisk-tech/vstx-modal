@@ -8,7 +8,7 @@
   template(v-else-if="modalType === 'card'")
     .modal-background(@click.passive="toggleIsVisible")
     .modal-card
-      header.modal-card.head
+      header.modal-card-head
         slot(name="header")
           p.modal-card-title {{ title }}
           button.delete(aria-label="close", @click.passive="toggleIsVisible")
@@ -16,7 +16,7 @@
         slot(name="body")
       footer.modal-card-foot
         slot(name="footer")
-          button.button-is-success(@click.passive="$emit('modalSaveChanges')") Save Changes
+          button.button.is-success(@click.passive="$emit('modalSaveChanges')") Save Changes
           button.button(@click.passive="toggleIsVisible") Cancel
 </template>
 
