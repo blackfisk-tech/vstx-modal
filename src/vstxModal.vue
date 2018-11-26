@@ -1,11 +1,11 @@
 <template lang="pug">
 .modal(:class="{ 'is-active': isVisible }")
-  template(v-if="modalType === 'default")
+  template(v-if="modalType === 'default'")
     .modal-background(@click.passive="toggleIsVisible")
     .modal-content.box.is-scrollable-y
       slot
     button.modal-close.is-large(@click.passive="toggleIsVisible")
-  template(v-else-if="modalType === 'card")
+  template(v-else-if="modalType === 'card'")
     .modal-background(@click.passive="toggleIsVisible")
     .modal-card
       header.modal-card.head
