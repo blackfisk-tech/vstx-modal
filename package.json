@@ -1,6 +1,6 @@
 {
   "name": "vstx-modal",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Modal component for the Vue Stacks Template",
   "main": "dist/vstx-modal.js",
   "scripts": {
